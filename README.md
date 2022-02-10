@@ -41,7 +41,6 @@ secure, and production-grade cloud infrastructure.
 This module implements the following Terraform resources
 
 - `kubernetes_cluster_role`
-- `aggregation_rule`
 
 ## Getting Started
 

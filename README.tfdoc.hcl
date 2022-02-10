@@ -130,7 +130,7 @@ section {
         attribute "resource_names" {
           type        = list(string)
           description = <<-END
-            ResourceNames is an optional white list of names that the rule
+           ` ResourceNames` is an optional white list of names that the rule
             applies to. An empty set means that everything is allowed.
           END
         }
@@ -147,7 +147,7 @@ section {
           required    = true
           type        = list(string)
           description = <<-END
-            Verbs is a list of Verbs that apply to ALL the `ResourceKinds` and
+            `Verbs` is a list of Verbs that apply to ALL the `ResourceKinds` and
             `AttributeRestrictions` contained in this rule. `VerbAll` represents
             all kinds.
           END

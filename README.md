@@ -97,8 +97,8 @@ See [variables.tf] and [examples/] for details and use-cases.
 
   - [**`resource_names`**](#attr-rules-resource_names): *(Optional `list(string)`)*<a name="attr-rules-resource_names"></a>
 
-    ResourceNames is an optional white list of names that the rule
-    applies to. An empty set means that everything is allowed.
+    `ResourceNames` is an optional white list of names that the rule
+     applies to. An empty set means that everything is allowed.
 
   - [**`resources`**](#attr-rules-resources): *(Optional `list(string)`)*<a name="attr-rules-resources"></a>
 
@@ -107,7 +107,7 @@ See [variables.tf] and [examples/] for details and use-cases.
 
   - [**`verbs`**](#attr-rules-verbs): *(**Required** `list(string)`)*<a name="attr-rules-verbs"></a>
 
-    Verbs is a list of Verbs that apply to ALL the `ResourceKinds` and
+    `Verbs` is a list of Verbs that apply to ALL the `ResourceKinds` and
     `AttributeRestrictions` contained in this rule. `VerbAll` represents
     all kinds.
 

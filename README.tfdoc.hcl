@@ -130,7 +130,7 @@ section {
         attribute "resource_names" {
           type        = list(string)
           description = <<-END
-           ` ResourceNames` is an optional white list of names that the rule
+           `ResourceNames` is an optional white list of names that the rule
             applies to. An empty set means that everything is allowed.
           END
         }
